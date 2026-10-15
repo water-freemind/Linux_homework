@@ -1,0 +1,1 @@
+cc -O2 -Wall -Wextra -Wpedantic -std=c11 -o sparse_downloader sparse_downloader.c

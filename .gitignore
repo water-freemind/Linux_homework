@@ -1,0 +1,4 @@
+/sparse_downloader
+/demo_data/
+*.tmp
+*.core

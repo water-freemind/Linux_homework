@@ -1,0 +1,1 @@
+logical=1048576 bytes; allocated=2048 blocks (512-byte units)
