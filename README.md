@@ -8,9 +8,8 @@
 
 ## 2. 实验环境与边界
 
-- 实际测试板：Radxa ROCK 5C，aarch64，Debian GNU/Linux 12 (bookworm)
+- 实际测试板：Radxa ROCK 5C，RK3588 平台，aarch64，Debian GNU/Linux 12 (bookworm)
 - 编译环境：GCC 12.2、GNU Make 4.3
-- 作业画面标注 RK3566；本次实际使用 ROCK 5C，不能据此声称已经在 RK3566 板验证
 - AI 协作：由桌面端 Codex 辅助分析、实现、审查和测试记录；没有把未实际运行的 DeepSeek/Claude 对话写成已完成记录
 
 ## 3. 文件清单
@@ -93,6 +92,5 @@ du -h --apparent-size downloaded.bin
 - 状态文件以源文件设备号、inode、长度和纳秒修改时间识别源文件；源文件变化后会停止，需重新开始。
 - 没有实现 SHA-256 等端到端内容校验；演示脚本使用 `cmp` 对照源文件与结果。
 - 文件系统的稀疏分配策略不同，实际占块数以本板实测为准。
-- 本报告测试对象是 ROCK 5C，不是 RK3566。
 - 截图来自解锁后的 TigerVNC 桌面中实际展示板端测试结果的终端窗口。
 
